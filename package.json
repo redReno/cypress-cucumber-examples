@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "cypress_run": "npx cypress run",
+    "cypress_fail": "yarn add cypress@8.4.0 && npx cypress run",
+    "cypress_pass": "yarn add cypress@8.3.1 && npx cypress run"
+  },
+  "dependencies": {
+    "cypress": "8.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "license": "MIT"
+}
